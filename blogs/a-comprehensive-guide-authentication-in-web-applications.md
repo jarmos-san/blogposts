@@ -10,7 +10,7 @@ description:
 publishedOn: 2026-04-25 01:46:48
 status: published
 coverImage:
-  url: https://ik.imagekit.io/jarmos/a-comprehensive-guide-to-authentication-in-web-applications.png
+  url: ./images/a-comprehrensive-guide-to-authentication-in-web-apps.svg
   alt: A comprehensive guide to authentication in web applications.
 ---
 
