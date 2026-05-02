@@ -9,6 +9,11 @@ status: published
 coverImage:
   url: https://ik.imagekit.io/jarmos/a-definitive-guide-to-pointers-in-go.png
   alt: A Definitive Guide to Pointers in Go
+sitemap:
+  loc: /a-definitive-guide-to-pointers-in-go
+  lastmod: 2026-02-25 13:34:03
+  changefreq: yearly
+  priority: 1
 ---
 
 If you are finding it difficult to grasp the concept of pointers in Go, you are
