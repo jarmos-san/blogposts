@@ -1,11 +1,11 @@
 ---
 title: "A Review of Some of the Most Popular Static Site Generators"
-description:
-  "Discover Static Site Generators (SSGs) like Jekyll for simplicity, Gatsby for
+description: "Discover Static Site Generators (SSGs) like Jekyll for simplicity, Gatsby for
   JS speed, Pelican for Python ease, and Hugo for speed and versatility. Tailor
   your choice to coding preference and needs. Read the comprehensive review for
   insights."
-publishedOn: 2021-02-04
+timestamps:
+  publishedOn: 2021-02-04T00:00:00+00:00
 coverImage:
   url: https://ik.imagekit.io/jarmos/review-of-static-site-generators.png?updatedAt=1702974989355
   alt: A review of the most popular Static Site Generators

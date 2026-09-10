@@ -1,6 +1,6 @@
 ---
 title: Building CLI applications with Python's argparse module.
-publishedOn: 2025-11-12 16:50:04.227161
+timestamps: publishedOn:2025-11-12T16:50:04+00:00
 description: |
   A step-by-step guide to creating Python CLI applications with argparse. Parse
   arguments, generate files, and automate tasks using only the standard library.
