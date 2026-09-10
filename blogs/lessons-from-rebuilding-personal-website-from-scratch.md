@@ -9,6 +9,11 @@ timestamps:
 coverImage:
   url: https://ik.imagekit.io/jarmos/lessons-of-rebuilding-personal-website.png?updatedAt=1702974992236
   alt: Lessons learned from rebuilding my personal website
+sitemap:
+  loc: /blogs/lessons-from-rebuilding-personal-website-from-scratch
+  lastmod: 2023-12-19T00:00:00+00:00
+  changefreq: yearly
+  priority: 1
 ---
 
 If you know me well, you would know I advocate for blogging as a programmer

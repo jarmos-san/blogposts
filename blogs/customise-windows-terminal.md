@@ -9,6 +9,11 @@ timestamps:
 coverImage:
   url: https://ik.imagekit.io/jarmos/customising-windows-terminal.png?updatedAt=1702974989364
   alt: Customising Windows Terminal with a Minimalist Approach
+sitemap:
+  loc: /blogs/customise-windows-terminal
+  lastmod: 2020-12-31T00:00:00+00:00
+  changefreq: yearly
+  priority: 1
 ---
 
 Who needs Linux when you got a fully customized Windows Terminal!

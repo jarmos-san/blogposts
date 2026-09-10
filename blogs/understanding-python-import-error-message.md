@@ -9,6 +9,11 @@ timestamps:
 coverImage:
   url: https://ik.imagekit.io/jarmos/understanding-python-import-error-message.png?updatedAt=1702974989269
   alt: Understanding the "ImportError" Message in Python
+sitemap:
+  loc: /blogs/understanding-python-import-error-message
+  lastmod: 2021-03-24T00:00:00+00:00
+  changefreq: yearly
+  priority: 1
 ---
 
 If you worked on a Python project before you would know, the said programming

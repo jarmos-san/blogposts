@@ -10,6 +10,11 @@ timestamps:
 coverImage:
   url: https://ik.imagekit.io/jarmos/medium-vs-static-site-generator.png?updatedAt=1702974989261
   alt: Medium vs Static Site Generators
+sitemap:
+  loc: /blogs/medium-vs-static-site-generators
+  lastmod: 2020-05-13T00:00:00+00:00
+  changefreq: yearly
+  priority: 1
 ---
 
 The day I took a plunge & went full-time freelance, a lingering thought has

@@ -10,6 +10,11 @@ timestamps:
 coverImage:
   url: https://ik.imagekit.io/jarmos/automated-workflow-for-latex.png?updatedAt=1702974989273
   alt: An automated & modern workflow for LaTex
+sitemap:
+  loc: /blogs/automated-workflow-for-latex
+  lastmod: 2021-09-04T00:00:00+00:00
+  changefreq: yearly
+  priority: 1
 ---
 
 If you're aware of or have used [LaTeX](https://www.latex-project.org) in the

@@ -9,6 +9,11 @@ timestamps:
 coverImage:
   url: https://ik.imagekit.io/jarmos/using-github-actions-to-deploy-to-heroku.png?updatedAt=1702974989351
   alt: Using GitHub Actions to Deploy a FastAPI Project to Heroku
+sitemap:
+  loc: /blogs/using-github-actions-to-deploy-to-heroku
+  lastmod: 2021-05-05T00:00:00+00:00
+  changefreq: yearly
+  priority: 1
 ---
 
 I build Python projects & host the source code on GitHub repositories quite

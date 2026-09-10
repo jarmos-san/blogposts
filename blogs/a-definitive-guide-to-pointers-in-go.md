@@ -10,7 +10,7 @@ coverImage:
   url: https://ik.imagekit.io/jarmos/a-definitive-guide-to-pointers-in-go.png
   alt: A Definitive Guide to Pointers in Go
 sitemap:
-  loc: /a-definitive-guide-to-pointers-in-go
+  loc: /blogs/a-definitive-guide-to-pointers-in-go
   lastmod: 2026-02-25
   changefreq: yearly
   priority: 1

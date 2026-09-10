@@ -12,7 +12,7 @@ coverImage:
   url: https://ik.imagekit.io/jarmos/A%20Comprehensive%20Guide%20to%20Authentication%20in%20Web%20Applications/a-comprehrensive-guide-to-authentication-in-web-apps.svg
   alt: A comprehensive guide to authentication in web applications.
 sitemap:
-  loc: /a-comprehensive-guide-authentication-in-web-applications
+  loc: /blogs/a-comprehensive-guide-authentication-in-web-applications
   lastmod: 2026-05-01
   changefreq: yearly
   priority: 1

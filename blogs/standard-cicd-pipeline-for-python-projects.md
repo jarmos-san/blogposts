@@ -9,6 +9,11 @@ timestamps:
 coverImage:
   url: https://ik.imagekit.io/jarmos/standard-cicd-pipeline-for-python-projects.png?updatedAt=1702974989270
   alt: A standard & complete CI/CD pipeline for most Python projects
+sitemap:
+  loc: /blogs/standard-cicd-pipeline-for-python-projects
+  lastmod: 2021-01-22T00:00:00+00:00
+  changefreq: yearly
+  priority: 1
 ---
 
 Have you ever spent ages tinkering with CI/CD tools rather than work on writing

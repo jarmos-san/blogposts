@@ -11,6 +11,11 @@ status: published
 coverImage:
   url: https://ik.imagekit.io/jarmos/why-im-never-buying-an-iphone.png
   alt: Why I'm never buying an iPhone again.
+sitemap:
+  loc: /blogs/why-i-m-never-buying-an-iphone-again
+  lastmod: 2025-12-20T08:34:02+00:00
+  changefreq: yearly
+  priority: 1
 ---
 
 My smartphone journey began in 2016 with an iPhone 5S which served as my primary

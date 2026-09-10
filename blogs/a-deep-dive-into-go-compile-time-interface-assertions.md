@@ -10,8 +10,8 @@ coverImage:
   url: https://ik.imagekit.io/jarmos/a-deep-dive-into-go-compile-time-interface-assertions.png
   alt: A Deep Dive Into Go's Compile-Time Interface Assertions
 sitemap:
-  loc: /a-deep-dive-into-go-compile-time-interface-assertions
-  lastmod: 2026-06-18 12:06:41
+  loc: /blogs/a-deep-dive-into-go-compile-time-interface-assertions
+  lastmod: 2026-06-18T12:06:41+00:00
   changefreq: yearly
   priority: 1
 ---

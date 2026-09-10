@@ -9,6 +9,11 @@ timestamps:
 coverImage:
   url: https://ik.imagekit.io/jarmos/should-you-use-nextjs.png?updatedAt=1702974989276
   alt: Should you use Next.js for building your projects?
+sitemap:
+  loc: /blogs/should-you-use-nextjs
+  lastmod: 2022-02-12T00:00:00+00:00
+  changefreq: yearly
+  priority: 1
 ---
 
 I was introduced to [Next.js](https://nextjs.org) about a year ago when I

@@ -9,6 +9,11 @@ timestamps:
 coverImage:
   url: https://ik.imagekit.io/jarmos/create-overpowered-hugo-blog.png?updatedAt=1702974989343
   alt: Create an Overpowered Hugo blog (as an WordPress Alternative)
+sitemap:
+  loc: /blogs/create-hugo-blog-as-an-wordpress-alternative
+  lastmod: 2021-02-21T00:00:00+00:00
+  changefreq: yearly
+  priority: 1
 ---
 
 A developer without a blog is like a fisherman without their fishing rod. While

@@ -10,7 +10,7 @@ coverImage:
   url: https://ik.imagekit.io/jarmos/creating-neovim-keymaps-using-lua.png?updatedAt=1702974989266
   alt: How to create custom keymaps in Neovim with Lua?
 sitemap:
-  loc: /create-custom-neovim-keybindings-using-lua
+  loc: /blogs/create-custom-neovim-keybindings-using-lua
   lastmod: 2026-05-03
   changefreq: yearly
   priority: 1

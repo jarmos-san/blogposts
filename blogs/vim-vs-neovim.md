@@ -9,6 +9,11 @@ timestamps:
 coverImage:
   url: https://ik.imagekit.io/jarmos/vim-vs-neovim.png?updatedAt=1702974992298
   alt: "Vim vs Neovim: Which to Use?"
+sitemap:
+  loc: /blogs/vim-vs-neovim
+  lastmod: 2021-07-15T00:00:00+00:00
+  changefreq: yearly
+  priority: 1
 ---
 
 If you ever heard of [Vim](https://www.vim.org) before, you would know all about

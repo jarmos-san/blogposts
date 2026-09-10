@@ -9,6 +9,11 @@ timestamps:
 coverImage:
   url: https://ik.imagekit.io/jarmos/review-of-static-site-generators.png?updatedAt=1702974989355
   alt: A review of the most popular Static Site Generators
+sitemap:
+  loc: /blogs/review-of-popular-static-site-generators
+  lastmod: 2021-02-04T00:00:00+00:00
+  changefreq: yearly
+  priority: 1
 ---
 
 So confusing! Which Static Site Generator should I use?
