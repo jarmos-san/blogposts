@@ -1,12 +1,12 @@
 ---
 title: "Medium vs Static Site Generators: Which Should I Choose?"
-description:
-  Explore the challenges of building an online presence using Static Site
+description: Explore the challenges of building an online presence using Static Site
   Generators (SSGs) like Pelican, Hugo, and Gatsby. Delve into the principles of
   visual hierarchy for effective design. Discover the advantages of Medium over
   personal blogs in terms of accessibility, SEO, and audience reach. Understand
   the rationale behind choosing Medium and explore relevant references.
-publishedOn: 2020-05-13
+timestamps:
+  publishedOn: 2020-05-13T00:00:00+00:00
 coverImage:
   url: https://ik.imagekit.io/jarmos/medium-vs-static-site-generator.png?updatedAt=1702974989261
   alt: Medium vs Static Site Generators
@@ -88,21 +88,21 @@ hierarchy.
 
 But briefly put, the principles states the following:
 
-1.  ***Reading Patterns*** — Certain optimized ways to get the readers’ short
+1.  _**Reading Patterns**_ — Certain optimized ways to get the readers’ short
     attention span.
-2.  ***Just The “RIGHT” Font Size*** — Explains how using an optimal font size
+2.  _**Just The “RIGHT” Font Size**_ — Explains how using an optimal font size
     is useful to grab the reader’s attention & make them feel obligated to read
     further.
-3.  ***Space & Texture*** — This is a testament that adequate spacing between
+3.  _**Space & Texture**_ — This is a testament that adequate spacing between
     lines & other content is key to creating modern-looking sites on the
     Internet today.
-4.  ***Typeface Weight & Pairing*** — Mostly crucial for branding as this is
+4.  _**Typeface Weight & Pairing**_ — Mostly crucial for branding as this is
     what brings about specific characteristic looks & visuals of a brand on the
     Internet.
-5.  ***Color & Tint*** — Humans perceive visual characters more prominently than
+5.  _**Color & Tint**_ — Humans perceive visual characters more prominently than
     any other beings on the planet. Using the right color & tint in your themes
     is of utmost importance.
-6.  ***Direction*** — Perhaps the most crucial principle of all is the page
+6.  _**Direction**_ — Perhaps the most crucial principle of all is the page
     layout of the site. This is how the writer can make the most out of the
     reader’s short attention span. No single site will have obviously the same
     page layout as the other & each of them is usually optimized according to

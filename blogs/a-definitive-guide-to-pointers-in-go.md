@@ -1,10 +1,10 @@
 ---
 title: "Understanding Pointers in Go: A Practical Guide"
-description:
-  Learn how pointers work in Go with clear explanations and practical examples.
+description: Learn how pointers work in Go with clear explanations and practical examples.
   This guide covers pointer types, memory addresses, dereferencing and why
   pointers matter for writing efficient and reliable Go programs.
-publishedOn: 2026-02-25 13:34:03
+timestamps:
+  publishedOn: 2026-02-25T13:34:03+00:00
 status: published
 coverImage:
   url: https://ik.imagekit.io/jarmos/a-definitive-guide-to-pointers-in-go.png

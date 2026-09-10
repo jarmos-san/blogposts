@@ -1,13 +1,12 @@
 ---
-title:
-  "Why I'm Never Buying an iPhone Again: A Switch to Android for Value and
+title: "Why I'm Never Buying an iPhone Again: A Switch to Android for Value and
   Freedom"
-description:
-  After years of using Apple iPhones, I'm switching to Android for good. From
+description: After years of using Apple iPhones, I'm switching to Android for good. From
   the "Batterygate" scandal and repair restrictions to the staggering price of
   iPhones in India, I'm choosing hardware freedom and value over a "lifestyle"
   brand. Here's why.
-publishedOn: 2025-12-20 08:34:02.542984+00:00
+timestamps:
+  publishedOn: 2025-12-20T08:34:02+00:00
 status: published
 coverImage:
   url: https://ik.imagekit.io/jarmos/why-im-never-buying-an-iphone.png

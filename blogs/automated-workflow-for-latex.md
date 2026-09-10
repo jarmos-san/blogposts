@@ -1,12 +1,12 @@
 ---
 title: "An Automated and Modern Workflow for Using LaTex"
-description:
-  Revitalize your LaTeX workflow with modern tools! Sidestep TeX Live's bloat
+description: Revitalize your LaTeX workflow with modern tools! Sidestep TeX Live's bloat
   and Overleaf's online constraints. Embrace `tectonic`—a Rust-based, efficient
   LaTeX engine. Harness `task` for streamlined automation. Craft modular
   documents with `subfiles` for seamless collaboration. Dive into a rejuvenated,
   efficient LaTeX experience! 🚀📄🔧
-publishedOn: 2021-09-04
+timestamps:
+  publishedOn: 2021-09-04T00:00:00+00:00
 coverImage:
   url: https://ik.imagekit.io/jarmos/automated-workflow-for-latex.png?updatedAt=1702974989273
   alt: An automated & modern workflow for LaTex
@@ -291,8 +291,7 @@ tasks:
       - tectonic -X build --keep-intermediates --keep-logs
 
   cleanup:
-    desc:
-      Remove unnecessary & redundant stuff like the log files & improperly
+    desc: Remove unnecessary & redundant stuff like the log files & improperly
       generated PDF files.
     cmds:
       - rm --recursive --force build

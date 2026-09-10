@@ -1,11 +1,11 @@
 ---
 title: "Using GitHub Actions to Deploy a FastAPI Project to Heroku"
-description:
-  Deploy FastAPI projects to Heroku seamlessly using GitHub Actions. Avoid
+description: Deploy FastAPI projects to Heroku seamlessly using GitHub Actions. Avoid
   Heroku CLI and extra dependencies. Configure CI/CD pipeline with GitHub
   Actions, ensuring quality standards and last-line-of-defense health-checks.
   Detailed steps, potential roadblocks, and alternatives discussed.
-publishedOn: 2021-05-05
+timestamps:
+  publishedOn: 2021-05-05T00:00:00+00:00
 coverImage:
   url: https://ik.imagekit.io/jarmos/using-github-actions-to-deploy-to-heroku.png?updatedAt=1702974989351
   alt: Using GitHub Actions to Deploy a FastAPI Project to Heroku

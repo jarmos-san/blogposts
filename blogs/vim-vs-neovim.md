@@ -1,11 +1,11 @@
 ---
 title: "Vim or Neovim? Here is Why You Should Use the Latter!"
-description:
-  "Discover why Neovim excels over Vim! Faster, cleaner, and loaded with
+description: "Discover why Neovim excels over Vim! Faster, cleaner, and loaded with
   features like LSP and Lua scripting. Enjoy seamless transition for Vim users,
   faster performance with Lua, and user-friendly defaults. Neovim: the modern,
   minimalist text editor"
-publishedOn: 2021-07-15
+timestamps:
+  publishedOn: 2021-07-15T00:00:00+00:00
 coverImage:
   url: https://ik.imagekit.io/jarmos/vim-vs-neovim.png?updatedAt=1702974992298
   alt: "Vim vs Neovim: Which to Use?"

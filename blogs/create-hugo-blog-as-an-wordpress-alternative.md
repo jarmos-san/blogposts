@@ -1,11 +1,11 @@
 ---
 title: "Create an Overpowered Hugo Blog (as an WordPress Alternative)"
-description:
-  Discover the power of blogging with Hugo! Explore a WordPress alternative
+description: Discover the power of blogging with Hugo! Explore a WordPress alternative
   offering ease and efficiency. Learn to set up Hugo, leverage GitHub Actions
   for automation, and utilize Forestry as a CMS. Elevate your blog with Hugo’s
   simplicity and GitHub’s power.
-publishedOn: 2021-02-21
+timestamps:
+  publishedOn: 2021-02-21T00:00:00+00:00
 coverImage:
   url: https://ik.imagekit.io/jarmos/create-overpowered-hugo-blog.png?updatedAt=1702974989343
   alt: Create an Overpowered Hugo blog (as an WordPress Alternative)
