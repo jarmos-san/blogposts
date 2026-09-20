@@ -1,6 +1,7 @@
 ---
 title: "Should You Use Next.js?"
-description: Explore the realities of Next.js for web development. Learn its out-of-the-box
+description:
+  Explore the realities of Next.js for web development. Learn its out-of-the-box
   features, optimized React.js components, and SEO improvements. Discover
   popular use cases from eCommerce to content marketing. Follow for updates on
   cons and optimization techniques.
@@ -14,6 +15,7 @@ sitemap:
   lastmod: 2022-02-12T00:00:00+00:00
   changefreq: yearly
   priority: 1
+status: published
 ---
 
 I was introduced to [Next.js](https://nextjs.org) about a year ago when I

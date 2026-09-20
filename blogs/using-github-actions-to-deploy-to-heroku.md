@@ -1,6 +1,7 @@
 ---
 title: "Using GitHub Actions to Deploy a FastAPI Project to Heroku"
-description: Deploy FastAPI projects to Heroku seamlessly using GitHub Actions. Avoid
+description:
+  Deploy FastAPI projects to Heroku seamlessly using GitHub Actions. Avoid
   Heroku CLI and extra dependencies. Configure CI/CD pipeline with GitHub
   Actions, ensuring quality standards and last-line-of-defense health-checks.
   Detailed steps, potential roadblocks, and alternatives discussed.
@@ -14,6 +15,7 @@ sitemap:
   lastmod: 2021-05-05T00:00:00+00:00
   changefreq: yearly
   priority: 1
+status: published
 ---
 
 I build Python projects & host the source code on GitHub repositories quite

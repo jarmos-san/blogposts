@@ -1,6 +1,7 @@
 ---
 title: "Lessons Learned from Rebuilding my Personal Website"
-description: Explore a developer's multi-year journey in building and evolving a personal
+description:
+  Explore a developer's multi-year journey in building and evolving a personal
   website. Learn about the tools used, the drawbacks encountered with platforms
   like Medium and Pelican, and valuable lessons on choosing the right technology
   for a successful project.
@@ -14,6 +15,7 @@ sitemap:
   lastmod: 2023-12-19T00:00:00+00:00
   changefreq: yearly
   priority: 1
+status: published
 ---
 
 If you know me well, you would know I advocate for blogging as a programmer

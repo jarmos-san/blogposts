@@ -1,6 +1,7 @@
 ---
 title: "Customising the New Windows Terminal: A Minimalist Approach"
-description: Discover the power of Windows Terminal customization for a developer-friendly
+description:
+  Discover the power of Windows Terminal customization for a developer-friendly
   experience. Learn about minimalist tweaks, profile configurations, color
   schemes, and key bindings. Elevate your productivity and aesthetics on
   Windows. Dive into effortless customization now.
@@ -14,6 +15,7 @@ sitemap:
   lastmod: 2020-12-31T00:00:00+00:00
   changefreq: yearly
   priority: 1
+status: published
 ---
 
 Who needs Linux when you got a fully customized Windows Terminal!
