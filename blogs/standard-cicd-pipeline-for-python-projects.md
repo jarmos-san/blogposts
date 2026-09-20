@@ -1,6 +1,7 @@
 ---
 title: "A Standard & Complete CI/CD Pipeline for Most Python Projects"
-description: "Streamline Python project CI/CD with a GitHub Actions workflow. Overcome
+description:
+  "Streamline Python project CI/CD with a GitHub Actions workflow. Overcome
   Poetry and virtual environment challenges. Achieve linting, testing,
   dependency caching, and CodeCov integration with minimal setup. Boost
   productivity and maintain code quality effortlessly."
@@ -14,6 +15,7 @@ sitemap:
   lastmod: 2021-01-22T00:00:00+00:00
   changefreq: yearly
   priority: 1
+status: published
 ---
 
 Have you ever spent ages tinkering with CI/CD tools rather than work on writing

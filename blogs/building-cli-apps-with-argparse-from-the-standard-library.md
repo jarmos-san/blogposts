@@ -5,7 +5,7 @@ timestamps:
 description: |
   A step-by-step guide to creating Python CLI applications with argparse. Parse
   arguments, generate files, and automate tasks using only the standard library.
-status: draft
+status: published
 coverImage:
   url: https://ik.imagekit.io/jarmos/building-cli-apps-with-argparse.png?updatedAt=1763202236560
   alt: Building CLI apps with Python standard library modules
@@ -14,6 +14,7 @@ sitemap:
   lastmod: 2025-11-12T16:50:04+00:00
   changefreq: yearly
   priority: 1
+status: published
 ---
 
 If you've automated repetitive tasks with a Python script that has grown more

@@ -1,6 +1,7 @@
 ---
 title: A Deep Dive Into Go's Compile-Time Interface Assertions
-description: Learn how pointers work in Go with clear explanations and practical examples.
+description:
+  Learn how pointers work in Go with clear explanations and practical examples.
   This guide covers pointer types, memory addresses, dereferencing and why
   pointers matter for writing efficient and reliable Go programs.
 timestamps:
@@ -14,6 +15,7 @@ sitemap:
   lastmod: 2026-06-18T12:06:41+00:00
   changefreq: yearly
   priority: 1
+status: published
 ---
 
 Go is a language that favours simplicity, but many of its design decisions can

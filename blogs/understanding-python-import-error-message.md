@@ -1,6 +1,7 @@
 ---
 title: "Understanding Why Your FastAPI Throws an ImportError Message"
-description: 'Master Python module execution! Learn about modular programming, FastAPI
+description:
+  'Master Python module execution! Learn about modular programming, FastAPI
   project structuring, and resolving the "ImportError: attempted relative import
   with no known parent package." Understand Python''s `__name__` and execute
   modules correctly. Boost your Python skills! 🚀'
@@ -14,6 +15,7 @@ sitemap:
   lastmod: 2021-03-24T00:00:00+00:00
   changefreq: yearly
   priority: 1
+status: published
 ---
 
 If you worked on a Python project before you would know, the said programming

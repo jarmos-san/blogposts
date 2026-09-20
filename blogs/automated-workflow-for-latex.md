@@ -1,6 +1,7 @@
 ---
 title: "An Automated and Modern Workflow for Using LaTex"
-description: Revitalize your LaTeX workflow with modern tools! Sidestep TeX Live's bloat
+description:
+  Revitalize your LaTeX workflow with modern tools! Sidestep TeX Live's bloat
   and Overleaf's online constraints. Embrace `tectonic`—a Rust-based, efficient
   LaTeX engine. Harness `task` for streamlined automation. Craft modular
   documents with `subfiles` for seamless collaboration. Dive into a rejuvenated,
@@ -15,6 +16,7 @@ sitemap:
   lastmod: 2021-09-04T00:00:00+00:00
   changefreq: yearly
   priority: 1
+status: published
 ---
 
 If you're aware of or have used [LaTeX](https://www.latex-project.org) in the
@@ -296,7 +298,8 @@ tasks:
       - tectonic -X build --keep-intermediates --keep-logs
 
   cleanup:
-    desc: Remove unnecessary & redundant stuff like the log files & improperly
+    desc:
+      Remove unnecessary & redundant stuff like the log files & improperly
       generated PDF files.
     cmds:
       - rm --recursive --force build

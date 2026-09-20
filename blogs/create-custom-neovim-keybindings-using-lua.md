@@ -1,6 +1,7 @@
 ---
 title: "How to Create Custom Keymaps in Neovim v0.12 With Lua"
-description: Deep dive into Neovim keymap configuration using Lua. Explore
+description:
+  Deep dive into Neovim keymap configuration using Lua. Explore
   vim.keymap.set(), mode handling, and extensible patterns for building
   maintainable and ergonomic editor workflows.
 timestamps:
@@ -14,6 +15,7 @@ sitemap:
   lastmod: 2026-05-03
   changefreq: yearly
   priority: 1
+status: published
 ---
 
 **NOTE**: The article was recently updated to reflect the changes introduced in
