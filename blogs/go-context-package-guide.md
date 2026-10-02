@@ -11,7 +11,7 @@ coverImage:
   url: https://ik.imagekit.io/jarmos/go-context-package-guide.png
   alt: Mastering Go's context package
 sitemap:
-  loc: /drafts/go-context-package-guide
+  loc: /blogs/go-context-package-guide
   lastmod: 2026-10-02T14:03:22+05:30
   changefreq: monthly
   priority: 1
