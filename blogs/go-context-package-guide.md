@@ -5,15 +5,14 @@ description:
   cancellation signals, request values, new Go 1.20/1.21 features, and best
   practices.
 timestamps:
-  publishedOn: 2026-09-20T13:02:40+05:30
-  updatedOn: 2026-09-30T13:34:12+05:30
-status: draft
+  publishedOn: 2026-10-02T14:03:22+05:30
+status: published
 coverImage:
   url: https://ik.imagekit.io/jarmos/go-context-package-guide.png
   alt: Mastering Go's context package
 sitemap:
   loc: /drafts/go-context-package-guide
-  lastmod: 2026-09-27T13:04:59+05:30
+  lastmod: 2026-10-02T14:03:22+05:30
   changefreq: monthly
   priority: 1
 ---
@@ -444,13 +443,13 @@ language;
 ### Richer Error Diagnostics: `WithCancelCause` (Go 1.20)
 
 Before Go 1.20, when a context was canceled, you knew _that_ it was canceled
-(`ctx.Err()` returned `context.Cancel` or `context.DeadlineExceeded`), you it
-was not possible to know why. Was it a user timeout, a database disconnect, or
-an application shutdown? We never knew.
+(`ctx.Err()` returned `context.Cancel` or `context.DeadlineExceeded`) and it was
+not possible to know why. Was it a user timeout, a database disconnect, or an
+application shutdown? We never knew.
 
-Go 1.20 introduced `context.WithCancelCause` and `context.Cause` which allows us
-to attach a custom `error` when canceling a context. Here's a reference example
-to showcase how its used in the real-world:
+To handle this drawback, Go 1.20 introduced `context.WithCancelCause` and
+`context.Cause` which allowed us to attach a custom `error` when canceling a
+context. Here's a reference example to showcase how its used in the real-world:
 
 ```go
 package main
@@ -494,10 +493,9 @@ func main() {
 ### Timeouts with Causes & Decoupling Contexts (Go 1.21)
 
 Go 1.21 expanded on causes and added a long-requested utility for background
-tasks.
-
-The `context.WithTimeoutCause()` & `context.WithDeadlineCause()` allows us to
-associate an explicit error message with timer expirations:
+tasks. These new updates were in the form of the `context.WithTimeoutCause()` &
+`context.WithDeadlineCause()` which allowed us to associate an explicit error
+message with timer expirations:
 
 ```go
 package main
@@ -537,9 +535,13 @@ func main() {
 }
 ```
 
-The `context.WithoutCancel()` allows us to return a copy of the parent context
-which ignores all cancellation signals from the parent while keeping all
-attached values intact.
+Besides `context.WithTimeoutCause()` and `context.WithDeadlineCause()`, Go 1.21
+also introduced the `context.WithoutCancel()` which allowed us to return a copy
+of the parent context with all cancellation signals from the parent ignored
+while keeping all attached values intact.
+
+Here's a reference example showing how the `context.WithoutCancel()` function is
+used in the real-world:
 
 ```go
 package main
@@ -599,11 +601,11 @@ func main() {
 
 ### Native Integration with Testing (Go 1.24)
 
-Go 1.24 streamlined how context is handled in unit tests and benchmarks by
-introducing `t.Context()` and `b.Context()` directly on `testing.T` and
-`testing.B`. So, instead of creating manual `context.WithTimeout` calls or
-relying on `context.Background()`, test contexts are automatically canceled when
-the test finishes or times out.
+A couple of updates down the line, Go 1.24 streamlined how context is handled in
+unit tests and benchmarks, by introducing `t.Context()` and `b.Context()`
+directly on `testing.T` and `testing.B`. So, instead of creating manual
+`context.WithTimeout` calls or relying on `context.Background()`, test contexts
+are automatically canceled when the test finishes or times out.
 
 Here's an example for reference:
 
@@ -657,7 +659,7 @@ adhere to these five fundamental rules:
 1. Make `ctx` the first parameter in your function signature since it is also
    considered a strict convention across the Go ecosystem. This is done to
    immediately signal to downstream developers about its blocking nature,
-   handling I/O and/or manages concurrent work. This uniformity makes reading
+   handling I/O and/or manage concurrent work. This uniformity makes reading
    foreign codebases frictionless.
 
 2. Contexts are inherently ephemeral since they represent the lifecycle of a
@@ -690,9 +692,9 @@ adhere to these five fundamental rules:
    to terminate execution since Go handles concurrency cooperatively, meaning a
    goroutine must willingly yield or exit. So, if your goroutine performs
    CPU-heavy computation or blocks on a non-context aware I/O operation without
-   checking the context, the cancellation signal is silently ignore. Hence it is
-   necessary actively multiplex the operations using a `select` statement to
-   watch `<-ctx.Done()` or periodically check `ctx.Err() != nil` inside tight
+   checking the context, the cancellation signal is silently ignored. Hence it
+   is necessary to actively multiplex the operations using a `select` statement
+   to watch `<-ctx.Done()` or periodically check `ctx.Err() != nil` inside tight
    `for` loops to realise when to abort an operation.
 
 ## Conclusion
